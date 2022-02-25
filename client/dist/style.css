@@ -2,24 +2,24 @@
 
 Orange: #FA991C rgb(250, 153, 28)'
 Cream #FBF3F2
-Light Blue: #1C768F  'rgb(28, 118, 143)
-Dark Blue : #032539
+Light Blue: #9AD0EC  'rgb(28, 118, 143)
+Dark Blue : #F6F6F6
 */
 
 
 html {
-  background-color: #1c768F;
+  background-color: #9AD0EC;
 }
 
 body {
   height: 100vh;
-  
+
 background-image:
-radial-gradient(circle at 100% 150%, #1C768F 24%, #032539 24%, #032539 28%, #1C768F 28%, #1C768F 36%, #032539 36%, #032539 40%, transparent 40%, transparent),
-radial-gradient(circle at 0    150%, #1C768F 24%, #032539 24%, #032539 28%, #1C768F 28%, #1C768F 36%, #032539 36%, #032539 40%, transparent 40%, transparent),
-radial-gradient(circle at 50%  100%, #032539 10%, #1C768F 10%, #1C768F 23%, #032539 23%, #032539 30%, #1C768F 30%, #1C768F 43%, #032539 43%, #032539 50%, #1C768F 50%, #1C768F 63%, #032539 63%, #032539 71%, transparent 71%, transparent),
-radial-gradient(circle at 100% 50%, #032539 5%, #1C768F 5%, #1C768F 15%, #032539 15%, #032539 20%, #1C768F 20%, #1C768F 29%, #032539 29%, #032539 34%, #1C768F 34%, #1C768F 44%, #032539 44%, #032539 49%, transparent 49%, transparent),
-radial-gradient(circle at 0    50%, #032539 5%, #1C768F 5%, #1C768F 15%, #032539 15%, #032539 20%, #1C768F 20%, #1C768F 29%, #032539 29%, #032539 34%, #1C768F 34%, #1C768F 44%, #032539 44%, #032539 49%, transparent 49%, transparent);
+radial-gradient(circle at 100% 150%, #9AD0EC 24%, #F6F6F6 24%, #F6F6F6 28%, #9AD0EC 28%, #9AD0EC 36%, #F6F6F6 36%, #F6F6F6 40%, transparent 40%, transparent),
+radial-gradient(circle at 0    150%, #9AD0EC 24%, #F6F6F6 24%, #F6F6F6 28%, #9AD0EC 28%, #9AD0EC 36%, #F6F6F6 36%, #F6F6F6 40%, transparent 40%, transparent),
+radial-gradient(circle at 50%  100%, #F6F6F6 10%, #9AD0EC 10%, #9AD0EC 23%, #F6F6F6 23%, #F6F6F6 30%, #9AD0EC 30%, #9AD0EC 43%, #F6F6F6 43%, #F6F6F6 50%, #9AD0EC 50%, #9AD0EC 63%, #F6F6F6 63%, #F6F6F6 71%, transparent 71%, transparent),
+radial-gradient(circle at 100% 50%, #F6F6F6 5%, #9AD0EC 5%, #9AD0EC 15%, #F6F6F6 15%, #F6F6F6 20%, #9AD0EC 20%, #9AD0EC 29%, #F6F6F6 29%, #F6F6F6 34%, #9AD0EC 34%, #9AD0EC 44%, #F6F6F6 44%, #F6F6F6 49%, transparent 49%, transparent),
+radial-gradient(circle at 0    50%, #F6F6F6 5%, #9AD0EC 5%, #9AD0EC 15%, #F6F6F6 15%, #F6F6F6 20%, #9AD0EC 20%, #9AD0EC 29%, #F6F6F6 29%, #F6F6F6 34%, #9AD0EC 34%, #9AD0EC 44%, #F6F6F6 44%, #F6F6F6 49%, transparent 49%, transparent);
 background-size: 100px 50px;
 }
 
@@ -37,7 +37,7 @@ background-size: 100px 50px;
   flex-direction: column;
   align-items: center;
   margin: auto;
-  width: 85%;
+  width: 80%;
   height: 100%;
 }
 
@@ -62,7 +62,7 @@ background-size: 100px 50px;
   flex-direction: column;
   width: 100%;
   height: 100%;
-  background-color: #1C768F;
+  background-color: #9AD0EC;
   color: #FBF3F2;
 }
 
@@ -71,19 +71,21 @@ background-size: 100px 50px;
 }
 
 .btn-primary {
+  margin: 4px;
   background-color: #FA991C !important;
   border-color: #ffffff!important;
   filter:drop-shadow(.04em .05em .02em black);
 }
 
 .btn-secondary {
-  background-color: #032539 !important;
+  margin: 4px;
+  background-color: #adddbf !important;
   border-color: #ffffff !important;
   filter:drop-shadow(.04em .05em .02em black);
 }
 
 .btn-secondary-driver {
-  background-color: #5b717e !important;
+  background-color: #adddbf !important;
   border-color: #ffffff !important;
   filter:drop-shadow(.04em .05em .02em black);
 }

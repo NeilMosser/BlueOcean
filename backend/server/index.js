@@ -6,7 +6,7 @@ const passport = require('passport');
 const LocalStrategy = require('passport-local')
 const local = require('./strategies/local.js');
 const session = require('express-session');
-const PORT = 3000;
+const PORT = process.env.port || 3000;
 
 const app = express();
 

@@ -4,18 +4,11 @@
   justify-content: center;
   align-items: center;
   padding-top: 3%;
-  /* background-color: #FA991C; */
-
 }
-
-/* .Login form {
-  margin: 0 auto;
-  max-width: 320px;
-} */
 
 .LoginAndSelection {
   min-height: 100vh;
-  background-color: #1C768F;
+  background-color: #9AD0EC;
 }
 
 .riderOrDriver {

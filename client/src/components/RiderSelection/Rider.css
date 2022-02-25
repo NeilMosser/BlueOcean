@@ -1,20 +1,11 @@
-/* Colors:
-
-Orange: #FA991C rgb(250, 153, 28)'
-Cream #FBF3F2
-Light Blue: #1C768F  'rgb(28, 118, 143)
-Dark Blue : #032539 */
-
 .rider-portal-container {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-content: center;
-
 }
 
 h2 {
-
   text-align: center;
   align-items: center;
 }
@@ -25,14 +16,12 @@ h2 {
   flex-direction: column;
   position:relative;
   margin-bottom: 1rem
-
 }
 
 .hamburger-menu {
   position: absolute;
   top: 20%;
   left: 0;
-
 }
 
 .new-ride-button {
@@ -46,12 +35,8 @@ h2 {
   margin-top: 1rem;
 }
 
-
-
-
-/* Mitchell */
 .offcanvas {
-  background-color: #1C768F;
+  background-color: #9AD0EC;
   color: #FBF3F2;
 }
 
@@ -74,13 +59,13 @@ h2 {
 }
 
 .card {
-  background-color: #1C768F;
+  background-color: #9AD0EC;
   text-align: center;
   border: none;
 }
 
 .card-header {
-  background-color: #032539;
+  background-color: #1c768f;
 }
 
 .card-title {
@@ -108,7 +93,7 @@ h2 {
 .list-group-item {
   text-align: center;
   color: #FBF3F2;
-  background-color: #032539;
+  background-color: #1c768f;
   margin-bottom: 1em;
   font-size: 2em;
   filter:drop-shadow(.04em .05em .02em black);
