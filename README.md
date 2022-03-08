@@ -57,7 +57,5 @@ Finally, open your browser, select your address bar, and enter
 
 
 ## Acknowledgments
-
-  - Team Aragorn!
   - Hack Reactor
   - DEN16
