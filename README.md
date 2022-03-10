@@ -1,38 +1,46 @@
-# Blue Ocean
+# Overview
+Thumbs Up is a fullstack web application for connecting riders with drivers in their area. Drivers are able to plan trips and approve or decline requests from riders to join. Riders are able to search for nearby trips and request a seat.
+The goal of Thumbs Up is to provide rides to those without access and reduce fuel costs, carbon emissions, and traffic through carpooling.
+![](readme_assets/thumbsUpLogin.gif)
 
-The Tyrrhenian Team was hired by a client out of Israel to build a functional carpool app, complete with rider and driver functionalities, maps, and a chat feature.  A future iteration will introduce a payment system.
+---
 
-## Getting Started
+## Usage
+This application has been deployed on heroku: https://thumbsup-sterling.herokuapp.com/
 
-### Prerequisites
+- **Sample Driver:**
+    - Username: MrFripple
+    - Password: 123
+-  **Sample Rider:**
+    - Username: FryGuy
+    - Password: 456
 
-Requirements for the software and other tools to build, test and push
-- [node](https://nodejs.org/en/)
-- [npm](https://docs.npmjs.com/cli/v7/configuring-npm/install)
+### Sign-in as Driver, add new trip
+<p align="center">
+<img src="demoGifs/driverAddTrip.gif">
+</p>
 
-### Installing
+### Sign-in as Rider, search for new trip
+<p align="center">
+<img src="demoGifs/riderFindTrip.gif">
+</p>
 
-First install node/npm by following the links in the Prerequisites section above
+### As driver, approve ride request and send message
+<p align="center">
+<img src="demoGifs/driverAcceptReq.gif">
+</p>
 
-To make sure you have the same version of node installed (v14.18.0) that was used in this project, run the following command
+### As rider, view completed trips and rate driver
+<p align="center">
+<img src="demoGifs/riderRating.gif">
+</p>
 
-    'node -v'
+---
 
-Next, install all the dependencies included in package.json by running the following command
-
-    'npm install'
-
-Next, run the folliwing command to run webpack and transpile the .jsx code
-
-    'npm run react-dev'
-
-Next, get the node server up and running with the following command
-
-    'npm run start'
-
-Finally, open your browser, select your address bar, and enter
-
-    'localhost:3000'
+## Performance
+<p align="center">
+<img src="demoGifs/lighthouseScore.png">
+</p>
 
 
 ## Authors
