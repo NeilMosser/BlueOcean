@@ -48,7 +48,7 @@ This application has been deployed on heroku: https://thumbsup-sterling.herokuap
   - **Neil Mosser** - *Created Routing using React Router, and fleshed out the rider portal and linked pages.  Created server calls for rider* -
     [NeilMosser](https://github.com/NeilMosser)
 
-  - **Sterling Mueller** - *Provided styling, including the login page animation, and wroked on rider pages* -
+  - **Sterling Mueller** - *Provided styling, including the login page animation, and worked on rider pages* -
     [sterlingmuller](https://github.com/sterlingmuller)
 
   - **Matt Dziedzic** - *Created the chat component and its integrations* -
